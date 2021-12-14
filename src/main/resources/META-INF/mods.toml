@@ -1,0 +1,28 @@
+modLoader="javafml" #mandatory
+loaderVersion="[36,)" #mandatory
+license="GNU LGPLv3"
+issueTrackerURL="https://github.com/Darkorg69" #optional
+
+[[mods]] #mandatory
+modId="globalblockhardness" #mandatory
+version="1.0.0" #mandatory
+displayName="GlobalBlockHardness" #mandatory
+#updateJSONURL="" #optional
+displayURL="https://github.com/Darkorg69" #optional
+logoFile="globalblockhardness.png" #optional
+credits="Thanks for this mod goes to Java" #optional
+authors="Darkorg" #optional
+description='''This mod makes breaking blocks harder.''' #mandatory
+
+[[dependencies.globalblockhardness]] #optional
+    modId="forge" #mandatory
+    mandatory=true #mandatory
+    versionRange="[36,)" #mandatory
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.globalblockhardness]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.16.5,1.17)"
+    ordering="NONE"
+    side="BOTH"
